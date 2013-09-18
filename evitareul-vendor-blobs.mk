@@ -43,13 +43,7 @@ PRODUCT_COPY_FILES += \
   vendor/htc/evitareul/proprietary/bin/qmuxd:system/bin/qmuxd \
   vendor/htc/evitareul/proprietary/bin/rild:system/bin/rild \
   vendor/htc/evitareul/proprietary/bin/tf_daemon:system/bin/tf_daemon \
-  vendor/htc/evitareul/proprietary/etc/agps_rm:system/etc/agps_rm \
   vendor/htc/evitareul/proprietary/etc/AIC3008_REG_DualMic.csv:system/etc/AIC3008_REG_DualMic.csv \
-  vendor/htc/evitareul/proprietary/etc/calibration:system/etc/calibration \
-  vendor/htc/evitareul/proprietary/etc/calibration.gpio4:system/etc/calibration.gpio4 \
-  vendor/htc/evitareul/proprietary/etc/dbus.conf:system/etc/dbus.conf \
-  vendor/htc/evitareul/proprietary/etc/gps.conf:system/etc/gps.conf \
-  vendor/htc/evitareul/proprietary/etc/gps.conf_default:system/etc/gps.conf_default \
   vendor/htc/evitareul/proprietary/etc/hldm.bin:system/etc/hldm.bin \
   vendor/htc/evitareul/proprietary/etc/hltof.bin:system/etc/hltof.bin \
   vendor/htc/evitareul/proprietary/etc/hltrd.bin:system/etc/hltrd.bin \
@@ -58,22 +52,7 @@ PRODUCT_COPY_FILES += \
   vendor/htc/evitareul/proprietary/etc/nfcee_access.xml:system/etc/nfcee_access.xml \
   vendor/htc/evitareul/proprietary/etc/voicemail-conf.xml:system/etc/voicemail-conf.xml \
   vendor/htc/evitareul/proprietary/etc/bluetooth/a2dp_avrcp.conf:system/etc/bluetooth/a2dp_avrcp.conf \
-  vendor/htc/evitareul/proprietary/etc/bluetooth/audio.conf:system/etc/bluetooth/audio.conf \
-  vendor/htc/evitareul/proprietary/etc/bluetooth/auto_pairing.conf:system/etc/bluetooth/auto_pairing.conf \
   vendor/htc/evitareul/proprietary/etc/bluetooth/blacklist.conf:system/etc/bluetooth/blacklist.conf \
-  vendor/htc/evitareul/proprietary/etc/bluetooth/input.conf:system/etc/bluetooth/input.conf \
-  vendor/htc/evitareul/proprietary/etc/bluetooth/network.conf:system/etc/bluetooth/network.conf \
-  vendor/htc/evitareul/proprietary/etc/firmware/bcm4329.hcd:system/etc/firmware/bcm4329.hcd \
-  vendor/htc/evitareul/proprietary/etc/firmware/bcm4330.hcd:system/etc/firmware/bcm4330.hcd \
-  vendor/htc/evitareul/proprietary/etc/firmware/BCM4334B0_002.001.013.0767.0795.hcd:system/etc/firmware/BCM4334B0_002.001.013.0767.0795.hcd \
-  vendor/htc/evitareul/proprietary/etc/firmware/fw_bcm4334_apsta.bin:system/etc/firmware/fw_bcm4334_apsta.bin \
-  vendor/htc/evitareul/proprietary/etc/firmware/fw_bcm4334.bin:system/etc/firmware/fw_bcm4334.bin \
-  vendor/htc/evitareul/proprietary/etc/firmware/fw_bcm4334_p2p.bin:system/etc/firmware/fw_bcm4334_p2p.bin \
-  vendor/htc/evitareul/proprietary/etc/firmware/nvavp_aud_ucode.bin:system/etc/firmware/nvavp_aud_ucode.bin \
-  vendor/htc/evitareul/proprietary/etc/firmware/nvavp_os_0ff00000.bin:system/etc/firmware/nvavp_os_0ff00000.bin \
-  vendor/htc/evitareul/proprietary/etc/firmware/nvavp_os_eff00000.bin:system/etc/firmware/nvavp_os_eff00000.bin \
-  vendor/htc/evitareul/proprietary/etc/firmware/nvavp_vid_ucode_alt.bin:system/etc/firmware/nvavp_vid_ucode_alt.bin \
-  vendor/htc/evitareul/proprietary/etc/firmware/nvavp_vid_ucode.bin:system/etc/firmware/nvavp_vid_ucode.bin \
   vendor/htc/evitareul/proprietary/etc/nfcee_access.xml:system/etc/nfcee_access.xml \
   vendor/htc/evitareul/proprietary/etc/uilock.yuv:system/etc/uilock.yuv \
   vendor/htc/evitareul/proprietary/etc/voicemail-conf.xml:system/etc/voicemail-conf.xml \
