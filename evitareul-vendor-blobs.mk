@@ -58,7 +58,6 @@ PRODUCT_COPY_FILES += \
   vendor/htc/evitareul/proprietary/etc/hltof.bin:system/etc/hltof.bin \
   vendor/htc/evitareul/proprietary/etc/hltrd.bin:system/etc/hltrd.bin \
   vendor/htc/evitareul/proprietary/etc/nfcee_access.xml:system/etc/nfcee_access.xml \
-  vendor/htc/evitareul/proprietary/etc/voicemail-conf.xml:system/etc/voicemail-conf.xml \
   vendor/htc/evitareul/proprietary/etc/bluetooth/a2dp_avrcp.conf:system/etc/bluetooth/a2dp_avrcp.conf \
   vendor/htc/evitareul/proprietary/etc/bluetooth/blacklist.conf:system/etc/bluetooth/blacklist.conf \
   vendor/htc/evitareul/proprietary/etc/firmware/bcm4329.hcd:system/etc/firmware/bcm4329.hcd \
@@ -72,12 +71,9 @@ PRODUCT_COPY_FILES += \
   vendor/htc/evitareul/proprietary/etc/firmware/nvavp_os_eff00000.bin:system/etc/firmware/nvavp_os_eff00000.bin \
   vendor/htc/evitareul/proprietary/etc/firmware/nvavp_vid_ucode_alt.bin:system/etc/firmware/nvavp_vid_ucode_alt.bin \
   vendor/htc/evitareul/proprietary/etc/firmware/nvavp_vid_ucode.bin:system/etc/firmware/nvavp_vid_ucode.bin \ 
-  vendor/htc/evitareul/proprietary/etc/nfcee_access.xml:system/etc/nfcee_access.xml \
   vendor/htc/evitareul/proprietary/etc/uilock.yuv:system/etc/uilock.yuv \
-  vendor/htc/evitareul/proprietary/etc/voicemail-conf.xml:system/etc/voicemail-conf.xml \
   vendor/htc/evitareul/proprietary/lib/libasound.so:system/lib/libasound.so \
   vendor/htc/evitareul/proprietary/lib/libcall_volume.so:system/lib/libcall_volume.so \
-  vendor/htc/evitareul/proprietary/lib/egl/egl.cfg:system/lib/egl/egl.cfg \
   vendor/htc/evitareul/proprietary/lib/egl/libEGL_perfhud.so:system/lib/egl/libEGL_perfhud.so \
   vendor/htc/evitareul/proprietary/lib/egl/libEGL_tegra_impl.so:system/lib/egl/libEGL_tegra_impl.so \
   vendor/htc/evitareul/proprietary/lib/egl/libEGL_tegra.so:system/lib/egl/libEGL_tegra.so \
@@ -226,10 +222,4 @@ PRODUCT_COPY_FILES += \
   vendor/htc/evitareul/proprietary/lib/libsensors_mpl.so:system/lib/libsensors_mpl.so \
   vendor/htc/evitareul/proprietary/lib/libsystem_server.so:system/lib/libsystem_server.so \
   vendor/htc/evitareul/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so \
-  vendor/htc/evitareul/proprietary/vendor/firmware/mfg.bin:system/vendor/firmware/mfg.bin \
-  vendor/htc/evitareul/proprietary/vendor/pittpatt/models/detection/multi_pose_face_landmark_detectors.7/left_eye-y0-yi45-p0-pi45-r0-ri20.lg_32/full_model.bin:system/vendor/pittpatt/models/detection/multi_pose_face_landmark_detectors.7/left_eye-y0-yi45-p0-pi45-r0-ri20.lg_32/full_model.bin \
-  vendor/htc/evitareul/proprietary/vendor/pittpatt/models/detection/multi_pose_face_landmark_detectors.7/nose_base-y0-yi45-p0-pi45-r0-ri20.lg_32/full_model.bin:system/vendor/pittpatt/models/detection/multi_pose_face_landmark_detectors.7/nose_base-y0-yi45-p0-pi45-r0-ri20.lg_32/full_model.bin \
-  vendor/htc/evitareul/proprietary/vendor/pittpatt/models/detection/multi_pose_face_landmark_detectors.7/right_eye-y0-yi45-p0-pi45-r0-ri20.lg_32-2/full_model.bin:system/vendor/pittpatt/models/detection/multi_pose_face_landmark_detectors.7/right_eye-y0-yi45-p0-pi45-r0-ri20.lg_32-2/full_model.bin \
-  vendor/htc/evitareul/proprietary/vendor/pittpatt/models/detection/yaw_roll_face_detectors.6/head-y0-yi45-p0-pi45-r0-ri30.4a-v24/full_model.bin:system/vendor/pittpatt/models/detection/yaw_roll_face_detectors.6/head-y0-yi45-p0-pi45-r0-ri30.4a-v24/full_model.bin \
-  vendor/htc/evitareul/proprietary/vendor/pittpatt/models/detection/yaw_roll_face_detectors.6/head-y0-yi45-p0-pi45-rn30-ri30.5-v24/full_model.bin:system/vendor/pittpatt/models/detection/yaw_roll_face_detectors.6/head-y0-yi45-p0-pi45-rn30-ri30.5-v24/full_model.bin \
-  vendor/htc/evitareul/proprietary/vendor/pittpatt/models/detection/yaw_roll_face_detectors.6/head-y0-yi45-p0-pi45-rp30-ri30.5-v24/full_model.bin:system/vendor/pittpatt/models/detection/yaw_roll_face_detectors.6/head-y0-yi45-p0-pi45-rp30-ri30.5-v24/full_model.bin
+  vendor/htc/evitareul/proprietary/vendor/firmware/mfg.bin:system/vendor/firmware/mfg.bin
