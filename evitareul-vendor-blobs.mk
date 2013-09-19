@@ -14,10 +14,13 @@
 PRODUCT_COPY_FILES += \
 vendor/htc/evitareul/proprietary/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
 vendor/htc/evitareul/proprietary/bin/atpipe_plain:system/bin/atpipe_plain \
+vendor/htc/evitareul/proprietary/bin/bridgemgrd:system/bin/bridgemgrd \
+vendor/htc/evitareul/proprietary/bin/btld:system/bin/btld \
 vendor/htc/evitareul/proprietary/bin/cand:system/bin/cand \
 vendor/htc/evitareul/proprietary/bin/DxDrmServerIpc:system/bin/DxDrmServerIpc \
 vendor/htc/evitareul/proprietary/bin/diag_uart_log:system/bin/diag_uart_log \
 vendor/htc/evitareul/proprietary/bin/dmagent:system/bin/dmagent \
+vendor/htc/evitareul/proprietary/bin/ds_fmc_appd:system/bin/ds_fmc_appd \
 vendor/htc/evitareul/proprietary/bin/netmgrd:system/bin/netmgrd \
 vendor/htc/evitareul/proprietary/bin/efsks:system/bin/efsks \
 vendor/htc/evitareul/proprietary/bin/getnvm.sh:system/bin/getnvm.sh \
@@ -32,6 +35,7 @@ vendor/htc/evitareul/proprietary/bin/make_sec_bin:system/bin/make_sec_bin \
 vendor/htc/evitareul/proprietary/bin/mknod:system/bin/mknod \
 vendor/htc/evitareul/proprietary/bin/mtpd:system/bin/mtpd \
 vendor/htc/evitareul/proprietary/bin/netcfg:system/bin/netcfg \
+vendor/htc/evitareul/proprietary/bin/netd:system/bin/netd \
 vendor/htc/evitareul/proprietary/bin/netsharing:system/bin/netsharing \
 vendor/htc/evitareul/proprietary/bin/nl_listener:system/bin/nl_listener \
 vendor/htc/evitareul/proprietary/bin/nv_hciattach:system/bin/nv_hciattach \
@@ -49,6 +53,9 @@ vendor/htc/evitareul/proprietary/bin/racoon:system/bin/racoon \
 vendor/htc/evitareul/proprietary/bin/radish:system/bin/radish \
 vendor/htc/evitareul/proprietary/bin/rild:system/bin/rild \
 vendor/htc/evitareul/proprietary/bin/tf_daemon:system/bin/tf_daemon \
+vendor/htc/evitareul/proprietary/etc/asound.conf:system/etc/asound.conf \
+vendor/htc/evitareul/proprietary/etc/audio_effects.conf:system/etc/audio_effects.conf \
+vendor/htc/evitareul/proprietary/etc/audio_policy.conf:system/etc/audio_policy.conf \
 vendor/htc/evitareul/proprietary/etc/hldm.bin:system/etc/hldm.bin \
 vendor/htc/evitareul/proprietary/etc/hltof.bin:system/etc/hltof.bin \
 vendor/htc/evitareul/proprietary/etc/hltrd.bin:system/etc/hltrd.bin \
@@ -68,6 +75,7 @@ vendor/htc/evitareul/proprietary/etc/firmware/nvavp_vid_ucode_alt.bin:system/etc
 vendor/htc/evitareul/proprietary/etc/firmware/nvavp_vid_ucode.bin:system/etc/firmware/nvavp_vid_ucode.bin \
 vendor/htc/evitareul/proprietary/etc/uilock.yuv:system/etc/uilock.yuv \
 vendor/htc/evitareul/proprietary/etc/voicemail-conf.xml:system/etc/voicemail-conf.xml \
+vendor/htc/evitareul/proprietary/lib/libaudioavp.so:system/lib/libaudioavp.so \
 vendor/htc/evitareul/proprietary/lib/libasound.so:system/lib/libasound.so \
 vendor/htc/evitareul/proprietary/lib/libcall_volume.so:system/lib/libcall_volume.so \
 vendor/htc/evitareul/proprietary/lib/egl/libEGL_perfhud.so:system/lib/egl/libEGL_perfhud.so \
@@ -102,6 +110,7 @@ vendor/htc/evitareul/proprietary/lib/libcameraface.so:system/lib/libcameraface.s
 vendor/htc/evitareul/proprietary/lib/libcamerapp.so:system/lib/libcamerapp.so \
 vendor/htc/evitareul/proprietary/lib/libcapsjava.so:system/lib/libcapsjava.so \
 vendor/htc/evitareul/proprietary/lib/libcgdrv.so:system/lib/libcgdrv.so \
+vendor/htc/evitareul/proprietary/lib/libcsd-client.so:system/lib/libcsd-client.so \
 vendor/htc/evitareul/proprietary/lib/libdiag.so:system/lib/libdiag.so \
 vendor/htc/evitareul/proprietary/lib/libdm-radioaccess.so:system/lib/libdm-radioaccess.so \
 vendor/htc/evitareul/proprietary/lib/libdm-systemaccess.so:system/lib/libdm-systemaccess.so \
@@ -112,6 +121,7 @@ vendor/htc/evitareul/proprietary/lib/libdsucsd.so:system/lib/libdsucsd.so \
 vendor/htc/evitareul/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
 vendor/htc/evitareul/proprietary/lib/libdumppcm.so:system/lib/libdumppcm.so \
 vendor/htc/evitareul/proprietary/lib/libEGL.so:system/lib/libEGL.so \
+vendor/htc/evitareul/proprietary/lib/libgcomm_jni.so:system/lib/libgcomm_jni.so \
 vendor/htc/evitareul/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
 vendor/htc/evitareul/proprietary/lib/libGLES_trace.so:system/lib/libGLES_trace.so \
 vendor/htc/evitareul/proprietary/lib/libGLESv1_CM.so:system/lib/libGLESv1_CM.so \
@@ -127,6 +137,7 @@ vendor/htc/evitareul/proprietary/lib/libloc_ext.so:system/lib/libloc_ext.so \
 vendor/htc/evitareul/proprietary/lib/libril.so:system/lib/libril.so \
 vendor/htc/evitareul/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
 vendor/htc/evitareul/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
+vendor/htc/evitareul/proprietary/lib/libhtc-opt2.so:system/lib/libhtc-opt2.so \
 vendor/htc/evitareul/proprietary/lib/libqcci_legacy.so:system/lib/libqcci_legacy.so \
 vendor/htc/evitareul/proprietary/lib/libhtcsunny2engine.so:system/lib/libhtcsunny2engine.so \
 vendor/htc/evitareul/proprietary/lib/libhtcsunnyengine.so:system/lib/libhtcsunnyengine.so \
@@ -196,6 +207,7 @@ vendor/htc/evitareul/proprietary/lib/libnvwinsys.so:system/lib/libnvwinsys.so \
 vendor/htc/evitareul/proprietary/lib/libnvwsi.so:system/lib/libnvwsi.so \
 vendor/htc/evitareul/proprietary/lib/libOlaEngineNew.so:system/lib/libOlaEngineNew.so \
 vendor/htc/evitareul/proprietary/lib/libposteffect.so:system/lib/libposteffect.so \
+  vendor/htc/evitareul/proprietary/lib/libqcci_legacy.so:system/lib/libqcci_legacy.so \
 vendor/htc/evitareul/proprietary/lib/libqdi.so:system/lib/libqdi.so \
 vendor/htc/evitareul/proprietary/lib/libqdp.so:system/lib/libqdp.so \
 vendor/htc/evitareul/proprietary/lib/libqmi.so:system/lib/libqmi.so \
