@@ -134,7 +134,6 @@ vendor/htc/evitareul/proprietary/lib/libidl.so:system/lib/libidl.so \
 vendor/htc/evitareul/proprietary/lib/libloc_adapter.so:system/lib/libloc_adapter.so \
 vendor/htc/evitareul/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
 vendor/htc/evitareul/proprietary/lib/libloc_ext.so:system/lib/libloc_ext.so \
-vendor/htc/evitareul/proprietary/lib/libril.so:system/lib/libril.so \
 vendor/htc/evitareul/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
 vendor/htc/evitareul/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
 vendor/htc/evitareul/proprietary/lib/libhtc-opt2.so:system/lib/libhtc-opt2.so \
@@ -207,7 +206,7 @@ vendor/htc/evitareul/proprietary/lib/libnvwinsys.so:system/lib/libnvwinsys.so \
 vendor/htc/evitareul/proprietary/lib/libnvwsi.so:system/lib/libnvwsi.so \
 vendor/htc/evitareul/proprietary/lib/libOlaEngineNew.so:system/lib/libOlaEngineNew.so \
 vendor/htc/evitareul/proprietary/lib/libposteffect.so:system/lib/libposteffect.so \
-  vendor/htc/evitareul/proprietary/lib/libqcci_legacy.so:system/lib/libqcci_legacy.so \
+vendor/htc/evitareul/proprietary/lib/libqcci_legacy.so:system/lib/libqcci_legacy.so \
 vendor/htc/evitareul/proprietary/lib/libqdi.so:system/lib/libqdi.so \
 vendor/htc/evitareul/proprietary/lib/libqdp.so:system/lib/libqdp.so \
 vendor/htc/evitareul/proprietary/lib/libqmi.so:system/lib/libqmi.so \
