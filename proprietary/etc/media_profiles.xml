@@ -589,10 +589,10 @@
 
   <VideoDecoderCap name="wmv" enabled="true"/>
   <AudioDecoderCap name="wma" enabled="true"/>
-  <VideoEditorCap maxInputFrameWidth="1280"
-    maxInputFrameHeight="720"
-    maxOutputFrameWidth="1280"
-    maxOutputFrameHeight="720"
+  <VideoEditorCap maxInputFrameWidth="1920"
+    maxInputFrameHeight="1088"
+    maxOutputFrameWidth="1920"
+    maxOutputFrameHeight="1088"
     maxPrefetchYUVFrames="10" />
   <!--
       The VideoEditor Export codec profile and level values
