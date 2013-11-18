@@ -61,7 +61,6 @@ vendor/htc/evitareul/proprietary/etc/audio_policy.conf:system/etc/audio_policy.c
 vendor/htc/evitareul/proprietary/etc/hldm.bin:system/etc/hldm.bin \
 vendor/htc/evitareul/proprietary/etc/hltof.bin:system/etc/hltof.bin \
 vendor/htc/evitareul/proprietary/etc/hltrd.bin:system/etc/hltrd.bin \
-vendor/htc/evitareul/proprietary/etc/nfcee_access.xml:system/etc/nfcee_access.xml \
 vendor/htc/evitareul/proprietary/etc/firmware/bcm4329.hcd:system/etc/firmware/bcm4329.hcd \
 vendor/htc/evitareul/proprietary/etc/firmware/bcm4330.hcd:system/etc/firmware/bcm4330.hcd \
 vendor/htc/evitareul/proprietary/etc/firmware/BCM4334B0_002.001.013.0767.0777.hcd:system/etc/firmware/BCM4334B0_002.001.013.0767.0777.hcd \
