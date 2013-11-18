@@ -55,9 +55,6 @@ vendor/htc/evitareul/proprietary/bin/racoon:system/bin/racoon \
 vendor/htc/evitareul/proprietary/bin/radish:system/bin/radish \
 vendor/htc/evitareul/proprietary/bin/rild:system/bin/rild \
 vendor/htc/evitareul/proprietary/bin/tf_daemon:system/bin/tf_daemon \
-vendor/htc/evitareul/proprietary/etc/asound.conf:system/etc/asound.conf \
-vendor/htc/evitareul/proprietary/etc/audio_effects.conf:system/etc/audio_effects.conf \
-vendor/htc/evitareul/proprietary/etc/audio_policy.conf:system/etc/audio_policy.conf \
 vendor/htc/evitareul/proprietary/etc/hldm.bin:system/etc/hldm.bin \
 vendor/htc/evitareul/proprietary/etc/hltof.bin:system/etc/hltof.bin \
 vendor/htc/evitareul/proprietary/etc/hltrd.bin:system/etc/hltrd.bin \
@@ -230,3 +227,41 @@ vendor/htc/evitareul/proprietary/lib/libsensors_mpl.so:system/lib/libsensors_mpl
 vendor/htc/evitareul/proprietary/lib/libsystem_server.so:system/lib/libsystem_server.so \
 vendor/htc/evitareul/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so \
 vendor/htc/evitareul/proprietary/vendor/firmware/mfg.bin:system/vendor/firmware/mfg.bin
+
+# to be sorted to correct place
+
+# Sound
+PRODUCT_COPY_FILES += \
+vendor/htc/evitareul/proprietary/etc/soundimage/board_version.txt:system/etc/soundimage/board_version.txt \
+vendor/htc/evitareul/proprietary/etc/soundimage/CodecDSPID.txt:system/etc/soundimage/CodecDSPID.txt \
+vendor/htc/evitareul/proprietary/etc/soundimage/CodecDSPID_XA.txt:system/etc/soundimage/CodecDSPID_XA.txt \
+vendor/htc/evitareul/proprietary/etc/soundimage/Sound_AMR_Recording.txt:system/etc/soundimage/Sound_AMR_Recording.txt \
+vendor/htc/evitareul/proprietary/etc/soundimage/Sound_BT_CarMode.txt:system/etc/soundimage/Sound_BT_CarMode.txt \
+vendor/htc/evitareul/proprietary/etc/soundimage/Sound_FM_HP.txt:system/etc/soundimage/Sound_FM_HP.txt \
+vendor/htc/evitareul/proprietary/etc/soundimage/Sound_FM_SPK.txt:system/etc/soundimage/Sound_FM_SPK.txt \
+vendor/htc/evitareul/proprietary/etc/soundimage/Sound_Note_Recording.txt:system/etc/soundimage/Sound_Note_Recording.txt \
+vendor/htc/evitareul/proprietary/etc/soundimage/Sound_Original.txt:system/etc/soundimage/Sound_Original.txt \
+vendor/htc/evitareul/proprietary/etc/soundimage/Sound_Original_DOCK.txt:system/etc/soundimage/Sound_Original_DOCK.txt \
+vendor/htc/evitareul/proprietary/etc/soundimage/Sound_Original_HP.txt:system/etc/soundimage/Sound_Original_HP.txt \
+vendor/htc/evitareul/proprietary/etc/soundimage/Sound_Original_monocamcorder.txt:system/etc/soundimage/Sound_Original_monocamcorder.txt \
+vendor/htc/evitareul/proprietary/etc/soundimage/Sound_Original_Recording.txt:system/etc/soundimage/Sound_Original_Recording.txt \
+vendor/htc/evitareul/proprietary/etc/soundimage/Sound_Original_SPK.txt:system/etc/soundimage/Sound_Original_SPK.txt \
+vendor/htc/evitareul/proprietary/etc/soundimage/Sound_Original_SPK_RING.txt:system/etc/soundimage/Sound_Original_SPK_RING.txt \
+vendor/htc/evitareul/proprietary/etc/soundimage/Sound_Original_SPK_XA.txt:system/etc/soundimage/Sound_Original_SPK_XA.txt \
+vendor/htc/evitareul/proprietary/etc/soundimage/Sound_Phone_Original_BT.txt:system/etc/soundimage/Sound_Original_BT.txt \
+vendor/htc/evitareul/proprietary/etc/soundimage/Sound_Phone_Original_DOCK.txt:system/etc/soundimage/Sound_Phone_Original_DOCK.txt \
+vendor/htc/evitareul/proprietary/etc/soundimage/Sound_Phone_Original_HP.txt:system/etc/soundimage/Sound_Phone_Original_HP.txt \
+vendor/htc/evitareul/proprietary/etc/soundimage/Sound_Phone_Original_HPST.txt:system/etc/soundimage/Sound_Phone_Original_HPST.txt \
+vendor/htc/evitareul/proprietary/etc/soundimage/Sound_Phone_Original_REC.txt:system/etc/soundimage/Sound_Phone_Original_REC.txt \
+vendor/htc/evitareul/proprietary/etc/soundimage/Sound_Phone_Original_SPK.txt:system/etc/soundimage/Sound_Phone_Original_SPK.txt \
+vendor/htc/evitareul/proprietary/etc/soundimage/Sound_Rec_Landscape.txt:system/etc/soundimage/Sound_Rec_Landscape.txt \
+vendor/htc/evitareul/proprietary/etc/soundimage/Sound_Rec_Portrait.txt:system/etc/soundimage/Sound_Rec_Portrait.txt \
+vendor/htc/evitareul/proprietary/etc/soundimage/Sound_SpeakerVR_Recording.txt:system/etc/soundimage/Sound_SpeakerVR_Recording.txt \
+vendor/htc/evitareul/proprietary/etc/soundimage/Sound_Voip_Original_BT.txt:system/etc/soundimage/Sound_Voip_Original_BT.txt \
+vendor/htc/evitareul/proprietary/etc/soundimage/Sound_Voip_Original_BT_AEC.txt:system/etc/soundimage/Sound_Voip_Original_BT_AEC.txt \
+vendor/htc/evitareul/proprietary/etc/soundimage/Sound_Voip_Original_HP.txt:system/etc/soundimage/Sound_Voip_Original_HP.txt \
+vendor/htc/evitareul/proprietary/etc/soundimage/Sound_Voip_Original_HP_AEC.txt:system/etc/soundimage/Sound_Voip_Original_HP_AEC.txt \
+vendor/htc/evitareul/proprietary/etc/soundimage/Sound_Voip_Original_REC.txt:system/etc/soundimage/Sound_Voip_Original_REC.txt \
+vendor/htc/evitareul/proprietary/etc/soundimage/Sound_Voip_Original_REC_AEC.txt:system/etc/soundimage/Sound_Voip_Original_REC_AEC.txt \
+vendor/htc/evitareul/proprietary/etc/soundimage/Sound_Voip_Original_SPK.txt:system/etc/soundimage/Sound_Voip_Original_SPK.txt \
+vendor/htc/evitareul/proprietary/etc/soundimage/Sound_Voip_Original_SPK_AEC.txt:system/etc/soundimage/Sound_Voip_Original_SPK_AEC.txt
