@@ -88,7 +88,6 @@ vendor/htc/evitareul/proprietary/lib/hw/audio.a2dp.default.so:system/lib/hw/audi
 vendor/htc/evitareul/proprietary/lib/hw/audio.primary.default.so:system/lib/hw/audio.primary.default.so \
 vendor/htc/evitareul/proprietary/lib/hw/audio.primary.tegra.so:system/lib/hw/audio.primary.tegra.so \
 vendor/htc/evitareul/proprietary/lib/hw/audio_policy.default.so:system/lib/hw/audio_policy.default.so \
-vendor/htc/evitareul/proprietary/lib/hw/audio_policy.tegra.so:system/lib/hw/audio_policy.tegra.so \
 vendor/htc/evitareul/proprietary/lib/hw/audio.usb.default.so:system/lib/hw/audio.usb.default.so \
 vendor/htc/evitareul/proprietary/lib/hw/camera.tegra.so:system/lib/hw/vendor-camera.tegra.so \
 vendor/htc/evitareul/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
