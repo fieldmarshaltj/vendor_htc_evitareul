@@ -147,6 +147,8 @@ vendor/htc/evitareul/proprietary/lib/libmlplatform.so:system/lib/libmlplatform.s
 vendor/htc/evitareul/proprietary/lib/libmpl_jni.so:system/lib/libmpl_jni.so \
 vendor/htc/evitareul/proprietary/lib/libmpl.so:system/lib/libmpl.so \
 vendor/htc/evitareul/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
+vendor/htc/evitareul/proprietary/lib/libnetsharing.so:system/lib/libnetsharing.so \
+vendor/htc/evitareul/proprietary/lib/libnetutils.so:system/lib/libnetutils.so \
 vendor/htc/evitareul/proprietary/lib/libnvapputil.so:system/lib/libnvapputil.so \
 vendor/htc/evitareul/proprietary/lib/libnvasfparserhal.so:system/lib/libnvasfparserhal.so \
 vendor/htc/evitareul/proprietary/lib/libnvaudioservice.so:system/lib/libnvaudioservice.so \
