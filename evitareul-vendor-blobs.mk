@@ -91,7 +91,6 @@ vendor/htc/evitareul/proprietary/lib/hw/audio_policy.default.so:system/lib/hw/au
 vendor/htc/evitareul/proprietary/lib/hw/audio.usb.default.so:system/lib/hw/audio.usb.default.so \
 vendor/htc/evitareul/proprietary/lib/hw/camera.tegra.so:system/lib/hw/vendor-camera.tegra.so \
 vendor/htc/evitareul/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
-vendor/htc/evitareul/proprietary/lib/hw/gps.tegra.so:system/lib/hw/gps.tegra.so \
 vendor/htc/evitareul/proprietary/lib/hw/gralloc.default.so:system/lib/hw/gralloc.default.so \
 vendor/htc/evitareul/proprietary/lib/hw/gralloc.tegra.so:system/lib/hw/gralloc.tegra.so \
 vendor/htc/evitareul/proprietary/lib/hw/hwcomposer.tegra.so:system/lib/hw/hwcomposer.tegra.so \
@@ -135,6 +134,7 @@ vendor/htc/evitareul/proprietary/lib/libkeystore_client.so:system/lib/libkeystor
 vendor/htc/evitareul/proprietary/lib/libloc_adapter.so:system/lib/libloc_adapter.so \
 vendor/htc/evitareul/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
 vendor/htc/evitareul/proprietary/lib/libloc_ext.so:system/lib/libloc_ext.so \
+vendor/htc/evitareul/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
 vendor/htc/evitareul/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
 vendor/htc/evitareul/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
 vendor/htc/evitareul/proprietary/lib/libhtc-opt2.so:system/lib/libhtc-opt2.so \
