@@ -18,7 +18,6 @@ vendor/htc/evitareul/proprietary/bin/bridgemgrd:system/bin/bridgemgrd \
 vendor/htc/evitareul/proprietary/bin/btld:system/bin/btld \
 vendor/htc/evitareul/proprietary/bin/cand:system/bin/cand \
 vendor/htc/evitareul/proprietary/bin/DxDrmServerIpc:system/bin/DxDrmServerIpc \
-vendor/htc/evitareul/proprietary/bin/debuggerd:system/bin/debuggerd \
 vendor/htc/evitareul/proprietary/bin/diag_uart_log:system/bin/diag_uart_log \
 vendor/htc/evitareul/proprietary/bin/dmagent:system/bin/dmagent \
 vendor/htc/evitareul/proprietary/bin/ds_fmc_appd:system/bin/ds_fmc_appd \
@@ -34,7 +33,6 @@ vendor/htc/evitareul/proprietary/bin/htc_ebdlogd:system/bin/htc_ebdlogd \
 vendor/htc/evitareul/proprietary/bin/htcfs:system/bin/htcfs \
 vendor/htc/evitareul/proprietary/bin/ks:system/bin/ks \
 vendor/htc/evitareul/proprietary/bin/make_sec_bin:system/bin/make_sec_bin \
-vendor/htc/evitareul/proprietary/bin/mdnsd:system/bin/mdnsd \
 vendor/htc/evitareul/proprietary/bin/mknod:system/bin/mknod \
 vendor/htc/evitareul/proprietary/bin/mtpd:system/bin/mtpd \
 vendor/htc/evitareul/proprietary/bin/netcfg:system/bin/netcfg \
@@ -82,10 +80,7 @@ vendor/htc/evitareul/proprietary/lib/egl/libGLESv1_CM_tegra.so:system/lib/egl/li
 vendor/htc/evitareul/proprietary/lib/egl/libGLESv2_perfhud.so:system/lib/egl/libGLESv2_perfhud.so \
 vendor/htc/evitareul/proprietary/lib/egl/libGLESv2_tegra_impl.so:system/lib/egl/libGLESv2_tegra_impl.so \
 vendor/htc/evitareul/proprietary/lib/egl/libGLESv2_tegra.so:system/lib/egl/libGLESv2_tegra.so \
-vendor/htc/evitareul/proprietary/lib/hw/audio.a2dp.default.so:system/lib/hw/audio.a2dp.default.so \
 vendor/htc/evitareul/proprietary/lib/hw/audio.primary.tegra.so:system/lib/hw/audio.primary.tegra.so \
-vendor/htc/evitareul/proprietary/lib/hw/audio_policy.default.so:system/lib/hw/audio_policy.default.so \
-vendor/htc/evitareul/proprietary/lib/hw/audio_policy.tegra.so:system/lib/hw/audio_policy.tegra.so \
 vendor/htc/evitareul/proprietary/lib/hw/camera.tegra.so:system/lib/hw/vendor-camera.tegra.so \
 vendor/htc/evitareul/proprietary/lib/hw/gralloc.default.so:system/lib/hw/gralloc.default.so \
 vendor/htc/evitareul/proprietary/lib/hw/gralloc.tegra.so:system/lib/hw/gralloc.tegra.so \
