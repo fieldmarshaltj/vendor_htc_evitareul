@@ -21,7 +21,6 @@ vendor/htc/evitareul/proprietary/bin/DxDrmServerIpc:system/bin/DxDrmServerIpc \
 vendor/htc/evitareul/proprietary/bin/diag_uart_log:system/bin/diag_uart_log \
 vendor/htc/evitareul/proprietary/bin/dmagent:system/bin/dmagent \
 vendor/htc/evitareul/proprietary/bin/ds_fmc_appd:system/bin/ds_fmc_appd \
-vendor/htc/evitareul/proprietary/bin/netmgrd:system/bin/netmgrd \
 vendor/htc/evitareul/proprietary/bin/efsks:system/bin/efsks \
 vendor/htc/evitareul/proprietary/bin/getnvm.sh:system/bin/getnvm.sh \
 vendor/htc/evitareul/proprietary/bin/gsm0710muxd:system/bin/gsm0710muxd \
@@ -35,9 +34,6 @@ vendor/htc/evitareul/proprietary/bin/ks:system/bin/ks \
 vendor/htc/evitareul/proprietary/bin/make_sec_bin:system/bin/make_sec_bin \
 vendor/htc/evitareul/proprietary/bin/mknod:system/bin/mknod \
 vendor/htc/evitareul/proprietary/bin/mtpd:system/bin/mtpd \
-vendor/htc/evitareul/proprietary/bin/netcfg:system/bin/netcfg \
-vendor/htc/evitareul/proprietary/bin/netd:system/bin/netd \
-vendor/htc/evitareul/proprietary/bin/netsharing:system/bin/netsharing \
 vendor/htc/evitareul/proprietary/bin/nl_listener:system/bin/nl_listener \
 vendor/htc/evitareul/proprietary/bin/nv_hciattach:system/bin/nv_hciattach \
 vendor/htc/evitareul/proprietary/bin/nvcap_test:system/bin/nvcap_test \
@@ -216,7 +212,6 @@ vendor/htc/evitareul/proprietary/lib/libscalado_htcalbum2.so:system/lib/libscala
 vendor/htc/evitareul/proprietary/lib/libscalado.so:system/lib/libscalado.so \
 vendor/htc/evitareul/proprietary/lib/libscaladoutil.so:system/lib/libscaladoutil.so \
 vendor/htc/evitareul/proprietary/lib/libsensors_mpl.so:system/lib/libsensors_mpl.so \
-vendor/htc/evitareul/proprietary/lib/libsystem_server.so:system/lib/libsystem_server.so \
 vendor/htc/evitareul/proprietary/lib/libtinyalsa.so:system/lib/libtinyalsa.so \
 vendor/htc/evitareul/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so \
 vendor/htc/evitareul/proprietary/vendor/firmware/mfg.bin:system/vendor/firmware/mfg.bin
