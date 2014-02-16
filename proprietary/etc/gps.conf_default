@@ -8,3 +8,7 @@ SUPL_TLS_HOST=FQDN
 SUPL_TLS_CERT=/etc/SuplRootCert
 PHONE_TYPE=UMTS
 SUPL_VER=0x20000
+<<<<<<< HEAD
+=======
+XTRA_INTERVAL=2880
+>>>>>>> 642e179... Telus update, And move stuff to the vendor where they belong
