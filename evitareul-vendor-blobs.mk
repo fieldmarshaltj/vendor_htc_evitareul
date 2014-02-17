@@ -199,6 +199,7 @@ vendor/htc/evitareul/proprietary/lib/libloc_adapter.so:system/lib/libloc_adapter
 vendor/htc/evitareul/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
 vendor/htc/evitareul/proprietary/lib/libloc_ext.so:system/lib/libloc_ext.so \
 vendor/htc/evitareul/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
+vendor/htc/evitareul/proprietary/lib/libril.so:system/lib/libril.so \
 vendor/htc/evitareul/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
 vendor/htc/evitareul/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
 vendor/htc/evitareul/proprietary/lib/libhtc-opt2.so:system/lib/libhtc-opt2.so \
@@ -211,6 +212,7 @@ vendor/htc/evitareul/proprietary/lib/libmlplatform.so:system/lib/libmlplatform.s
 vendor/htc/evitareul/proprietary/lib/libmpl_jni.so:system/lib/libmpl_jni.so \
 vendor/htc/evitareul/proprietary/lib/libmpl.so:system/lib/libmpl.so \
 vendor/htc/evitareul/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
+vendor/htc/evitareul/proprietary/lib/libnetmgrd.so:system/lib/libnetmgrd.so \
 vendor/htc/evitareul/proprietary/lib/libnetutils.so:system/lib/libnetutils.so \
 vendor/htc/evitareul/proprietary/lib/libnvapputil.so:system/lib/libnvapputil.so \
 vendor/htc/evitareul/proprietary/lib/libnvasfparserhal.so:system/lib/libnvasfparserhal.so \
