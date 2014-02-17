@@ -158,6 +158,7 @@ vendor/htc/evitareul/proprietary/lib/hw/audio.primary.tegra.so:system/lib/hw/aud
 vendor/htc/evitareul/proprietary/lib/hw/vendor-camera.tegra.so:system/lib/hw/vendor-camera.tegra.so \
 vendor/htc/evitareul/proprietary/lib/hw/gralloc.default.so:system/lib/hw/gralloc.default.so \
 vendor/htc/evitareul/proprietary/lib/hw/gralloc.tegra.so:system/lib/hw/gralloc.tegra.so \
+vendor/htc/evitareul/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
 vendor/htc/evitareul/proprietary/lib/hw/hwcomposer.tegra.so:system/lib/hw/hwcomposer.tegra.so \
 vendor/htc/evitareul/proprietary/lib/hw/keystore.default.so:system/lib/hw/keystore.default.so \
 vendor/htc/evitareul/proprietary/lib/hw/local_time.default.so:system/lib/hw/local_time.default.so \
@@ -212,7 +213,7 @@ vendor/htc/evitareul/proprietary/lib/libmlplatform.so:system/lib/libmlplatform.s
 vendor/htc/evitareul/proprietary/lib/libmpl_jni.so:system/lib/libmpl_jni.so \
 vendor/htc/evitareul/proprietary/lib/libmpl.so:system/lib/libmpl.so \
 vendor/htc/evitareul/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
-vendor/htc/evitareul/proprietary/lib/libnetmgrd.so:system/lib/libnetmgrd.so \
+vendor/htc/evitareul/proprietary/bin/netmgrd:system/bin/netmgrd \
 vendor/htc/evitareul/proprietary/lib/libnetutils.so:system/lib/libnetutils.so \
 vendor/htc/evitareul/proprietary/lib/libnvapputil.so:system/lib/libnvapputil.so \
 vendor/htc/evitareul/proprietary/lib/libnvasfparserhal.so:system/lib/libnvasfparserhal.so \
