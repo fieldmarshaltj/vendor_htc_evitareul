@@ -23,7 +23,6 @@ vendor/htc/evitareul/proprietary/bin/dmagent:system/bin/dmagent \
 vendor/htc/evitareul/proprietary/bin/ds_fmc_appd:system/bin/ds_fmc_appd \
 vendor/htc/evitareul/proprietary/bin/efsks:system/bin/efsks \
 vendor/htc/evitareul/proprietary/bin/getnvm.sh:system/bin/getnvm.sh \
-vendor/htc/evitareul/proprietary/bin/gsm0710muxd:system/bin/gsm0710muxd \
 vendor/htc/evitareul/proprietary/bin/hdcp_test:system/bin/hdcp_test \
 vendor/htc/evitareul/proprietary/bin/hdmid:system/bin/hdmid \
 vendor/htc/evitareul/proprietary/bin/hostapd:system/bin/hostapd \
@@ -68,7 +67,7 @@ vendor/htc/evitareul/proprietary/etc/gps.conf_TELUS001:system/etc/gps.conf_TELUS
 vendor/htc/evitareul/proprietary/etc/hosts:system/etc/hosts \
 vendor/htc/evitareul/proprietary/etc/htcfs.conf:system/etc/htcfs.conf \
 vendor/htc/evitareul/proprietary/etc/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
-vendor/htc/evitareul/proprietary/etc/p2p_supplicant.conf:system/etc/wifi/p2p_supplicant.conf
+vendor/htc/evitareul/proprietary/etc/p2p_supplicant.conf:system/etc/wifi/p2p_supplicant.conf \
 vendor/htc/evitareul/proprietary/etc/firmware/bcm4329.hcd:system/etc/firmware/bcm4329.hcd \
 vendor/htc/evitareul/proprietary/etc/firmware/bcm4330.hcd:system/etc/firmware/bcm4330.hcd \
 vendor/htc/evitareul/proprietary/etc/firmware/BCM4334B0_002.001.013.0767.0795.hcd:system/etc/firmware/BCM4334B0_002.001.013.0767.0795.hcd \
@@ -156,7 +155,7 @@ vendor/htc/evitareul/proprietary/lib/egl/libGLESv2_perfhud.so:system/lib/egl/lib
 vendor/htc/evitareul/proprietary/lib/egl/libGLESv2_tegra_impl.so:system/lib/egl/libGLESv2_tegra_impl.so \
 vendor/htc/evitareul/proprietary/lib/egl/libGLESv2_tegra.so:system/lib/egl/libGLESv2_tegra.so \
 vendor/htc/evitareul/proprietary/lib/hw/audio.primary.tegra.so:system/lib/hw/audio.primary.tegra.so \
-vendor/htc/evitareul/proprietary/lib/hw/camera.tegra.so:system/lib/hw/vendor-camera.tegra.so \
+vendor/htc/evitareul/proprietary/lib/hw/vendor-camera.tegra.so:system/lib/hw/vendor-camera.tegra.so \
 vendor/htc/evitareul/proprietary/lib/hw/gralloc.default.so:system/lib/hw/gralloc.default.so \
 vendor/htc/evitareul/proprietary/lib/hw/gralloc.tegra.so:system/lib/hw/gralloc.tegra.so \
 vendor/htc/evitareul/proprietary/lib/hw/hwcomposer.tegra.so:system/lib/hw/hwcomposer.tegra.so \
@@ -177,8 +176,6 @@ vendor/htc/evitareul/proprietary/lib/libcapsjava.so:system/lib/libcapsjava.so \
 vendor/htc/evitareul/proprietary/lib/libcgdrv.so:system/lib/libcgdrv.so \
 vendor/htc/evitareul/proprietary/lib/libcsd-client.so:system/lib/libcsd-client.so \
 vendor/htc/evitareul/proprietary/lib/libdiag.so:system/lib/libdiag.so \
-vendor/htc/evitareul/proprietary/lib/libdm-radioaccess.so:system/lib/libdm-radioaccess.so \
-vendor/htc/evitareul/proprietary/lib/libdm-systemaccess.so:system/lib/libdm-systemaccess.so \
 vendor/htc/evitareul/proprietary/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
 vendor/htc/evitareul/proprietary/lib/libdsprofile.so:system/lib/libdsprofile.so \
 vendor/htc/evitareul/proprietary/lib/libdss.so:system/lib/libdss.so \
@@ -187,6 +184,7 @@ vendor/htc/evitareul/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
 vendor/htc/evitareul/proprietary/lib/libdumppcm.so:system/lib/libdumppcm.so \
 vendor/htc/evitareul/proprietary/lib/libEGL.so:system/lib/libEGL.so \
 vendor/htc/evitareul/proprietary/lib/libgcomm_jni.so:system/lib/libgcomm_jni.so \
+vendor/htc/evitareul/proprietary/lib/libgps.so:system/lib/libgps.so \
 vendor/htc/evitareul/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
 vendor/htc/evitareul/proprietary/lib/libGLES_trace.so:system/lib/libGLES_trace.so \
 vendor/htc/evitareul/proprietary/lib/libGLESv1_CM.so:system/lib/libGLESv1_CM.so \
@@ -213,7 +211,6 @@ vendor/htc/evitareul/proprietary/lib/libmlplatform.so:system/lib/libmlplatform.s
 vendor/htc/evitareul/proprietary/lib/libmpl_jni.so:system/lib/libmpl_jni.so \
 vendor/htc/evitareul/proprietary/lib/libmpl.so:system/lib/libmpl.so \
 vendor/htc/evitareul/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
-vendor/htc/evitareul/proprietary/lib/libnetsharing.so:system/lib/libnetsharing.so \
 vendor/htc/evitareul/proprietary/lib/libnetutils.so:system/lib/libnetutils.so \
 vendor/htc/evitareul/proprietary/lib/libnvapputil.so:system/lib/libnvapputil.so \
 vendor/htc/evitareul/proprietary/lib/libnvasfparserhal.so:system/lib/libnvasfparserhal.so \
