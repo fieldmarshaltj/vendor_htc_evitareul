@@ -168,6 +168,7 @@ vendor/htc/evitareul/proprietary/lib/libardrv_dynamic.so:system/lib/libardrv_dyn
 vendor/htc/evitareul/proprietary/lib/libBeautyChat.so:system/lib/libBeautyChat.so \
 vendor/htc/evitareul/proprietary/lib/libbt-aptx-4.1.1.so:system/lib/libbt-aptx-4.1.1.so \
 vendor/htc/evitareul/proprietary/lib/libcamera_client.so:system/lib/libcamera_client.so \
+vendor/htc/evitareul/proprietary/lib/libcamera_metadata.so:system/lib/libcamera_metadata.so \
 vendor/htc/evitareul/proprietary/lib/libcameraservice.so:system/lib/libcameraservice.so \
 vendor/htc/evitareul/proprietary/lib/libcameraasd.so:system/lib/libcameraasd.so \
 vendor/htc/evitareul/proprietary/lib/libcameraface.so:system/lib/libcameraface.so \
